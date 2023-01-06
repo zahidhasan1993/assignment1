@@ -33,6 +33,7 @@ header{
     font-weight: 400;
     font-size: 16px;
     padding-bottom: 31px;
+    color: #444343;
 }
 .pri-btn{
     width: 160px;
@@ -42,6 +43,7 @@ header{
     border-radius: 5px;
     font-weight: 600;
     font-size: 20px;
+    border: none;
     
 }
 /* section my-info styling */
@@ -66,11 +68,128 @@ p img{
 .my-info-p{
     font-weight: 400;
     font-size: 16px;
+    color: #444343;
 }
 .my-info-con-title{
     margin-top: 200px;
+    margin-right: 322px;
    
 }
 .my-info-con-pic{
     margin-left: 206px;
+}
+/* my plan styling */
+.my-plan{
+    margin-top: 130px;
+    
+}
+
+.my-plan-h{
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+
+}
+.my-plan-content{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 230px ;
+    margin-right: 230px;
+}
+.my-plan-con-items{
+    text-align: center;
+}
+.my-plan-con-h{
+    font-weight: 700;
+    font-size: 30px;
+}
+.my-plan-con-p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* gradient styling */
+
+.overlay{
+   
+}
+.img-overlay{
+    background-image: linear-gradient(to right, rgba(241, 91, 34, 1), rgba(241, 91, 34, 0)),url(../images/watch.png);
+    height: 300px;
+    margin: 130px 230px 0;
+    border-radius: 10px;
+    
+}
+.img-content{
+    padding : 30px 617px 60px 64px;
+
+}
+.img-ovr-h{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.sec-btn{
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+
+/* footer styling */
+footer{
+    margin-top: 130px;
+    height: 577px;
+    background: black;
+    display: flex;
+    gap: 331px;
+    
+}
+.footer-titles{
+    color: white;
+    width: 485px;
+    height: 317px;
+    padding-left: 200px;
+    padding-top: 100px;
+    
+    
+}
+.fot-title-h{
+    font-weight: 700;
+    font-size: 45px;
+}
+.fot-title-p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer-items{
+    color: white;
+    width: 325px;
+    height: 204px;
+    padding-top: 120px;
+    
+    
+
+}
+.fot-items-h{
+    font-weight: 600;
+    font-size: 25px;
+}
+.mail{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 325px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
 }
