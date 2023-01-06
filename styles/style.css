@@ -15,12 +15,14 @@ header{
 .header-title img{
     width: 1600px;
     height: 808px;
+    
 }
 .header-container{
     position: absolute;
     top: 8px;
     margin-left: 845px;
     margin-top: 216px;
+    margin-right: 230px;
 }
 .h-c-title{
     font-weight: 700;
@@ -41,4 +43,34 @@ header{
     font-weight: 600;
     font-size: 20px;
     
+}
+/* section my-info styling */
+
+.my-info{
+    margin-top: 131px;
+    
+}
+.my-info-content{
+    display: flex;
+    gap: 87px;
+}
+
+p img{
+    height: 12px;
+    width: 12px;
+}
+.my-info-h{
+    font-weight: 700;
+    font-size: 40px;
+}
+.my-info-p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.my-info-con-title{
+    margin-top: 200px;
+   
+}
+.my-info-con-pic{
+    margin-left: 206px;
 }
