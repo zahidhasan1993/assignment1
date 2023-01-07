@@ -112,7 +112,7 @@ p img{
 /* gradient styling */
 
 .overlay{
-   
+   margin-bottom: 130px;
 }
 .img-overlay{
     background-image: linear-gradient(to right, rgba(241, 91, 34, 1), rgba(241, 91, 34, 0)),url(../images/watch.png);
@@ -140,6 +140,34 @@ p img{
     font-size: 20px;
     border: none;
 }
+/* extra styling */
+.extra{
+    background-color: #f5d8cd;
+    height: 550px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: none;
+    border-radius: 8px;
+}
+.ext-title-h{
+    padding-top: 70px;
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+.ex-in{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 325px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
 
 /* footer styling */
 footer{
